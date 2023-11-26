@@ -25,3 +25,11 @@ npm run export-json
 ```
 
 Will export the documentation to a single JSON file named ``exported.json``.
+
+### Export HTML
+
+```sh
+npm run export-html
+```
+
+Will export the documentation to a single HTML file named ``exported.html``.

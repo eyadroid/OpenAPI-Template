@@ -2,9 +2,11 @@
     "private": true,
     "scripts": {
         "export": "swagger-merger -i index.yaml -o exported.yaml",
-        "export-json": "swagger-merger -i index.yaml -o exported.json"
+        "export-json": "swagger-merger -i index.yaml -o exported.json",
+        "export-html": "npm run export-json && npx @redocly/cli build-docs -o exported.html exported.json"
     },
     "dependencies": {
+        "@redocly/cli": "^1.4.1",
         "swagger-merger": "^1.5.4"
     }
 }
