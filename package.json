@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "scripts": {
+        "export": "swagger-merger -i index.yaml -o exported.yaml",
+        "export-json": "swagger-merger -i index.yaml -o exported.json"
+    },
+    "dependencies": {
+        "swagger-merger": "^1.5.4"
+    }
+}
