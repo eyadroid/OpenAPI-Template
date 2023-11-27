@@ -3,6 +3,8 @@
 Organized template for writing OpenAPI/Swagger API documentation.
 
 
+## [Demo](https://productslist.eyadroid.com/swagger/)
+
 ## Project Setup
 Run install script.
 ```sh
